@@ -49,9 +49,16 @@ In the dialog box that comes up, you can select which users are allowed to use t
 ### Included Software
 #### Master Branch
 ##### Emulators
+- [X] - atari800.sh - Atari 800/5200 emulator with additional joystick support - 5200 is tested, 800 is not.
 - [X] - gearboy.sh - Gameboy emulator - Tested and works well.  
+- [X] - kat5200.sh - Atari 8-bit/5200 emulator - Only set up for 5200 at the moment.
+- [X] - pokemini.sh - Pokemon Mini emulator - Tested and works well.
+
+##### Libretrocores
+- [X] - lr-mame2003_midway.sh - MAME 0.78 core with Midway games optimizations.
 
 ##### Ports
+- [X] - amphetamine.sh - 2D Platforming Game - Tested, runs well. Requires keyboard.
 - [X] - bermudasyndrome.sh - Bermuda Syndrome engine - Tested, runs, possibly instable.  
 - [X] - bloboats.sh - Fun physics game - Tested and works well, OpenGL game running through glshim.
 - [X] - breaker.sh - Arkanoid clone - Tested and works well.  
@@ -79,29 +86,33 @@ In the dialog box that comes up, you can select which users are allowed to use t
 - [X] - manaplus.sh - 2D MMORPG client - Tested and works well, requires mouse.  
 - [X] - maelstrom.sh - Classic Mac Asteroids Remake - Tested and works well, button configuration screen may crash.
 - [X] - mayhem.sh - Remake of the Amiga game - Tested and works well.
+- [X] - netsurf.sh - Lightweight web browser - Tested and works well.
+- [X] - nkaruga.sh - Ikaruga demake. Tested and works well, requires keyboard.
 - [X] - nxengine.sh - The standalone version of the open-source clone/rewrite of Cave Story - Tested and works well.
 - [X] - pingus.sh - Lemmings clone - Tested and works well, requires mouse.  
 - [X] - prboom-plus.sh - Enhanced DOOM source port - lightly tested, seems to work.
 - [X] - rawgl.sh - Another World source port - Tested, occasionally crashes when button held when switching scenes?  
 - [X] - reminiscence.sh - Flashback engine clone - Tested and works well.   
 - [X] - retrobattle.sh - Fun retro style platform game - Tested and works well.
+- [X] - rickyd.sh - Rick Dangerous clone - Tested and works well, requires keyboard.
 - [X] - roadfighter.sh - RoadFighter clone - Tested and works well.  
 - [X] - rott.sh - Rise of the Triad source port - Tested and works well.  
-- [X] - sdl-bomber.sh - Simple Bomberman clone - Tested and works well, turn down the volume perhaps.  
-- [X] - smw-netplay.sh - Super Mario War with netplay - Tested and works well, netplay untested?  
+- [X] - sdl-bomber.sh - Simple Bomberman clone - Tested and works well, turn down the volume perhaps. 
 - [X] - sorr.sh - Streets of Rage Remake port - Tested and works well. Use fullscreen fast video mode.
 - [X] - supertuxkart.sh - Linux-themed racing game - Tested and works well, OpenGL game running through glshim.
+- [X] - texmaster2009.sh - Tetris TGM clone - Tested and works well.
 - [X] - tinyfugue.sh - MUD client - Tested and works well.  
 - [X] - ulmos-adventure.sh - Simple Adventure Game - Tested and works well.  
 - [X] - vorton.sh - Highway Encounter Remake in Spanish - Tested and works well.
 - [X] - warmux.sh - Worms Clone - Tested and works well. Possible issues with config files in wrong places?
 - [X] - weechat.sh - Console IRC Client - Tested and works well.
 - [X] - wizznic.sh - Puzznic clone - Tested and works well.  
+- [X] - zeldansq.sh - Zelda: Navi's Quest fangame - Tested and works well.
+- [X] - zeldapicross.sh - Zelda themed Picross fangame - Tested and works well, may require keyboard.
 
 ##### Supplementary
-- [X] - attract-mode.sh - Emulator Frontend - Tested and works well, not intended to completely replace EmulationStation.
+- [X] - joystick-selection.sh - Set controllers for RetroArch players 1-4.
 - [X] - screenshot.sh - Take screenshots remotely through SSH - Tested and works well.  
-- [X] - splashscreen-extra.sh - Install additional user-created splashscreens for RetroPie - Tested and works well.  
 
 #### Future To-Do List (not ordered by priority)
 - [X] - glshim  

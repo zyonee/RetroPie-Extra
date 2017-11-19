@@ -11,13 +11,16 @@
 
 rp_module_id="sorr"
 rp_module_desc="Streets of Rage Remake"
-rp_module_help="Please copy your Streets of Rage Remake installation files into $md_inst."
+rp_module_help="Please copy your SorR.dat file along with the mod and palettes folders into $md_inst."
 rp_module_section="exp"
 rp_module_flags="!x86 !x11 !mali"
 
+function depends_sorr() {
+    getDepends libsdl-mixer1.2
+}
+
 function sources_sorr() {
     gitPullOrClone "$md_build" https://github.com/zerojay/bennugd.git
-    getDepends libsdl-mixer1.2
 }
 
 function install_sorr() {
